@@ -1,47 +1,47 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Michael", "Niemeyer"]
-    email = "micniemeyer1@gmail.com"
-    twitter = "Mi_Niemeyer"
-    github = "m-niemeyer"
-    linkedin = "michael-niemeyer"
+    name = ["Jianfeng", "Li"]  # 修改为你的名字
+    chinese_name = "李剑峰"  # 中文名字
+    email = "popqlee@sina.com"
+    twitter = ""  # 如果没有，可以留空
+    github = ""  # 如果有GitHub用户名可以填写
+    linkedin = ""  # 如果没有，可以留空
+
     bio_text = f"""
                 <p>
-                    I am a senior research scientist at Google working on 3D computer vision and generative modeling.
-                    Prior to joining Google, I was a PhD student at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a> supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
-                    As an undergraduate student, I studied Mathematics at the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne (Germany)</a> and computer science as the Master's at the 
-                    <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews (UK)</a>.
+                    <a href=\"https://ceie.swu.edu.cn/info/1116/4039.htm\" target=\"_blank\">Jianfeng Li</a>
+                    is a Lecturer at Southwest University.
+                    He received his Ph.D. from Hiroshima City University, advised by Prof.
+                    <a href=\"https://hcur1.acoffice.biz/hcuhp/KgApp/k03/resid/S001766;jsessionid=39373EF817415A83B0E8C5A4B0B474E7?lang=en\" target=\"_blank\">Shigang Li</a>,
+                    and his MPhil degree from Sichuan University, advised by
+                    <a href=\"https://cs.scu.edu.cn/info/1073/3874.htm\" target=\"_blank\">Yiguang Liu</a>.
                 </p>
-                <p>For any inquiries, feel free to reach out to me via mail!</p>
-                <p>
-                    <a href="https://m-niemeyer.github.io/assets/other/bio.txt" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-graduation-cap"></i> Bio</a>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:micniemeyer1@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/Mi_Niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
-                    <a href="https://github.com/m-niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/michael-niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
-                    <div id="demo" class="collapse">
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    During my PhD studies, I was a scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our research projects Occupancy Networks, DVR, and ConvOnet were selected to be among the 15 most influencial <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">CVPR</a> /  <a href="https://www.paperdigest.org/2023/09/most-influential-eccv-papers-2023-09/" target="_blank">ECCV</a> papers of 2019 and 2020.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
+
+                <div style=\"background: #fafafa; border-left: 3px solid #e6e6e6; padding: 10px 12px; margin: 10px 0;\">
+                    <div style=\"font-weight: 600; margin-bottom: 6px;\">Research interests</div>
+                    <ul style=\"margin-bottom: 0.35rem; padding-left: 1.2rem;\">
+                        <li style=\"margin-bottom: 0.2rem;\">Panoramic images and omnidirectional images (360° vision)</li>
+                        <li style=\"margin-bottom: 0.2rem;\">Representation and geometric understanding on spherical domains</li>
+                        <li style=\"margin-bottom: 0.0rem;\">Facial expression understanding</li>
+                    </ul>
+                    <div style=\"color: #7A1E1E; font-size: 0.95em;\">Students interested in these topics are welcome to contact me.</div>
                 </div>
+
+                <p style=\"margin-bottom: 0;\">
+                    <a href=\"mailto:{email}\" style=\"margin-right: 12px\">
+                        <i class=\"far fa-envelope-open fa-lg\"></i> Email
+                    </a>
+                    <a href=\"https://scholar.google.com/citations?hl=zh-CN&user=iJDD27gAAAAJ&view_op=list_works&sortby=pubdate\" target=\"_blank\" style=\"margin-right: 12px\">
+                        <i class=\"fa fa-graduation-cap fa-lg\"></i> Google Scholar
+                    </a>
+                    <a href=\"https://www.researchgate.net/profile/Jianfeng-Li-32\" target=\"_blank\" style=\"margin-right: 12px\">
+                        <i class=\"fa-brands fa-researchgate fa-lg\"></i> ResearchGate
+                    </a>
                 </p>
     """
-    footer = """
-            <div class="col-sm-12" style="">
-                <h4>Homepage Template</h4>
-                <p>
-                    Feel free to use this website as a template! It is fully responsive and very easy to use and maintain as it uses a python script that crawls your bib files to automatically add the papers and talks. If you find it helpful, please add a link to my website - I will also add a link to yours (if you want). <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Checkout the github repository for instructions on how to use it</a>. <br>
-                    <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
-                    <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
-                </p>
-            </div>
-    """
+
+    footer = "<p>© 2026 Jianfeng Li. All rights reserved.</p>"
     return name, bio_text, footer
 
 def get_author_dict():
@@ -130,7 +130,7 @@ def get_author_dict():
         'Ahmed Tekalp': 'https://mysite.ku.edu.tr/mtekalp/',
         }
 
-def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
+def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Jianfeng Li', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
     for p in persons:
@@ -153,10 +153,20 @@ def get_paper_entry(entry_key, entry):
     s += f"""<img src="{entry.fields['img']}" class="img-fluid img-thumbnail" alt="Project image">"""
     s += """</div><div class="col-sm-9">"""
 
+    # Title (optional link)
+    title_html = entry.fields.get('title', '')
+    if 'html' in entry.fields:
+        title_html = f"""<a href=\"{entry.fields['html']}\" target=\"_blank\">{entry.fields['title']}</a>"""
+
+    # Optional note (e.g., Coming soon)
+    note_html = ""
+    if 'note' in entry.fields:
+        note_html = f""" <span style=\"color: #777;\">({entry.fields['note']})</span>"""
+
     if 'award' in entry.fields.keys():
-        s += f"""<a href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <span style="color: red;">({entry.fields['award']})</span><br>"""
+        s += f"""{title_html}{note_html} <span style="color: red;">({entry.fields['award']})</span><br>"""
     else:
-        s += f"""<a href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <br>"""
+        s += f"""{title_html}{note_html} <br>"""
 
     s += f"""{generate_person_html(entry.persons['author'])} <br>"""
     s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
@@ -169,35 +179,21 @@ def get_paper_entry(entry_key, entry):
                 s += ' / '
             s += f"""<a href="{entry.fields[k]}" target="_blank">{v}</a>"""
             i += 1
-        else:
-            print(f'[{entry_key}] Warning: Field {k} missing!')
 
     cite = "<pre><code>@InProceedings{" + f"{entry_key}, \n"
     cite += "\tauthor = {" + f"{generate_person_html(entry.persons['author'], make_bold=False, add_links=False, connection=' and ')}" + "}, \n"
     for entr in ['title', 'booktitle', 'year']:
-        cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
+        if entr in entry.fields:
+            cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
     cite += """}</pre></code>"""
-    s += " /" + f"""<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{entry_key}" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapse{entry_key}"><div class="card card-body">{cite}</div></div>"""
-    s += """ </div> </div> </div>"""
-    return s
 
-def get_talk_entry(entry_key, entry):
-    s = """<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3">"""
-    s += f"""<img src="{entry.fields['img']}" class="img-fluid img-thumbnail" alt="Project image">"""
-    s += """</div><div class="col-sm-9">"""
-    s += f"""{entry.fields['title']}<br>"""
-    s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+    # BibTeX toggle in the same style as other artefact links
+    if i > 0:
+        s += ' / '
+    s += f"""<button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse{entry_key}\"
+            aria-expanded=\"false\" aria-controls=\"collapse{entry_key}\" style=\"padding: 0;\">BibTeX</button>"""
+    s += f"""<div class=\"collapse\" id=\"collapse{entry_key}\"><div class=\"card card-body\" style=\"margin-top: 8px;\">{cite}</div></div>"""
 
-    artefacts = {'slides': 'Slides', 'video': 'Recording'}
-    i = 0
-    for (k, v) in artefacts.items():
-        if k in entry.fields.keys():
-            if i > 0:
-                s += ' / '
-            s += f"""<a href="{entry.fields[k]}" target="_blank">{v}</a>"""
-            i += 1
-        else:
-            print(f'[{entry_key}] Warning: Field {k} missing!')
     s += """ </div> </div> </div>"""
     return s
 
@@ -210,85 +206,125 @@ def get_publications_html():
         s+= get_paper_entry(k, bib_data.entries[k])
     return s
 
-def get_talks_html():
-    parser = bibtex.Parser()
-    bib_data = parser.parse_file('talk_list.bib')
-    keys = bib_data.entries.keys()
-    s = ""
-    for k in keys:
-        s+= get_talk_entry(k, bib_data.entries[k])
-    return s
-
 def get_index_html():
     pub = get_publications_html()
-    talks = get_talks_html()
     name, bio_text, footer = get_personal_data()
+
+    # News: show first 4 items, collapse the rest
+    news_html = """
+        <h4>News</h4>
+        <ul style=\"margin-bottom: 0.25rem; padding-left: 1.2rem;\">
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; display:inline-block; width:4.2em;\">2026.2</span> One paper accepted to CVPR 2026.</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; display:inline-block; width:4.2em;\">2025.7</span> One paper accepted to ECAI 2025.</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; display:inline-block; width:4.2em;\">2024.3</span> One paper accepted to ICRA 2024.</li>
+
+            <div class=\"collapse\" id=\"newsMore\">
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; display:inline-block; width:4.2em;\">2024.1</span> One paper accepted to WACV 2024.</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; display:inline-block; width:4.2em;\">2022.7</span> One paper accepted to ISMAR 2022.</li>
+                
+            </div>
+        </ul>
+
+        <button id=\"newsToggleBtn\" class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#newsMore\" aria-expanded=\"false\" aria-controls=\"newsMore\" style=\"padding: 0;\">More...</button>
+        <script>
+          (function() {
+            var more = document.getElementById('newsMore');
+            var btn = document.getElementById('newsToggleBtn');
+            if (!more || !btn) return;
+            more.addEventListener('show.bs.collapse', function () { btn.textContent = 'Less'; });
+            more.addEventListener('hide.bs.collapse', function () { btn.textContent = 'More...'; });
+          })();
+        </script>
+    """
+
+    mentoring_html = """
+        <h4>Mentoring</h4>
+        <p style=\"margin-bottom: 0.4rem; color: #555;\">I feel very fortunate to have worked with these talented students.</p>
+        <ul style=\"margin-bottom: 0.25rem; padding-left: 1.2rem;\">
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; font-weight:600; display:inline-block; width:4.2em;\">MPhil</span> <b>Yaqi Song</b> → Xiaomi Inc.</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; font-weight:600; display:inline-block; width:4.2em;\">MPhil</span> <b>Jingguo Liu</b> → KE Holdings Inc.</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; font-weight:600; display:inline-block; width:4.2em;\">MPhil</span> <b>Lin Lei</b> → Sichuan University (PhD)</li>
+            <li style=\"margin-bottom: 0.25rem;\"><span style=\"color:#666; font-weight:600; display:inline-block; width:4.2em;\">UG</span> <b>Junjie Liu</b> → South China University of Technology (MPhil) → SUSTech (PhD)</li>
+            <li style=\"margin-bottom: 0.0rem;\"><span style=\"color:#666; font-weight:600; display:inline-block; width:4.2em;\">UG</span> <a href=\"https://zhongleilz.github.io/\" target=\"_blank\"><b>Lei Zhong</b></a> → Nankai University (MPhil) → University of Edinburgh (PhD)</li>
+        </ul>
+    """
+
     s = f"""
     <!doctype html>
-<html lang="en">
+<html lang=\"en\">
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset=\"utf-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"
+    integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css\" integrity=\"sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />
 
   <title>{name[0] + ' ' + name[1]}</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel=\"icon\" type=\"image/x-icon\" href=\"assets/favicon.ico\">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class="row" style="margin-top: 3em;">
-                    <div class="col-sm-12" style="margin-bottom: 1em;">
-                    <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
+    <div class=\"container\">
+        <div class=\"row\">
+            <div class=\"col-md-1\"></div>
+            <div class=\"col-md-10\">
+                <div class=\"row\" style=\"margin-top: 3em;\">
+                    <div class=\"col-sm-12\" style=\"margin-bottom: 1em;\">
+                    <h3 class=\"display-4\" style=\"text-align: center;\"><span style=\"font-weight: bold;\">{name[0]}</span> {name[1]}</h3>
                     </div>
                     <br>
-                    <div class="col-md-10" style="">
+                    <div class=\"col-md-10\" style=\"\">
                         {bio_text}
                     </div>
-                    <div class="col-md-2" style="">
-                        <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
+                    <div class=\"col-md-2\" style=\"\">
+                        <img src=\"assets/img/profile.jpg\" class=\"img-thumbnail\" width=\"280px\" alt=\"Profile picture\">
                     </div>
                 </div>
-                <div class="row" style="margin-top: 1em;">
-                    <div class="col-sm-12" style="">
-                        <h4>Publications</h4>
+
+                <div class=\"row\" style=\"margin-top: 1.99em;\">
+                    <div class=\"col-sm-12\">
+                        {news_html}
+                    </div>
+                </div>
+
+                <div class=\"row\" style=\"margin-top: 1.99em;\">
+                    <div class=\"col-sm-12\">
+                        {mentoring_html}
+                    </div>
+                </div>
+
+                <div class=\"row\" style=\"margin-top: 1.99em;\">
+                    <div class=\"col-sm-12\" style=\"\">
+                        <h4>
+                            Selected Publications
+                            <a href="https://scholar.google.com/citations?hl=zh-CN&user=iJDD27gAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" style="font-weight: normal; font-size: 0.9em; margin-left: 8px;">(Full Papers)</a>
+                        </h4>
                         {pub}
                     </div>
                 </div>
-                <div class="row" style="margin-top: 3em;">
-                    <div class="col-sm-12" style="">
-                        <h4>Talks</h4>
-                        {talks}
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
+                <div class=\"row\" style=\"margin-top: 3em; margin-bottom: 1em;\">
                     {footer}
                 </div>
             </div>
-            <div class="col-md-1"></div>
-        </div?
+            <div class=\"col-md-1\"></div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
+    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
+      integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\"
+      crossorigin=\"anonymous\"></script>
+    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"
+      integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\"
+      crossorigin=\"anonymous\"></script>
+    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"
+      integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\"
+      crossorigin=\"anonymous\"></script>
 </body>
 
 </html>
